@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: "https://www.awin.com"
-documentation: "https://www.awin.com"
+documentation: "https://wiki.awin.com/index.php/Advertiser_Tracking_Guide"
 versions:
   - sha: cb566a581e23c422bc55914e2f5bde0122a3b1d0
     changeNotes: Initial release.
