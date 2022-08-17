@@ -57,8 +57,9 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 // Enter your template code here.
 const injectScript = require('injectScript');
+const encodeUri = require('encodeUri');
 
-const url = 'https://www.dwin1.com/' + data.advertiserId + '.js';
+const url = 'https://www.dwin1.com/' + encodeUri(data.advertiserId) + '.js';
 injectScript(url,data.gtmOnSuccess());
 
 // Call data.gtmOnSuccess when the tag is finished.
