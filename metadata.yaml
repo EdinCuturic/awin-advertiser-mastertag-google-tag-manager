@@ -15,5 +15,5 @@
 homepage: "https://www.awin.com"
 documentation: "https://www.awin.com"
 versions:
-  - sha: d2566308c302ee56b5a72cb16d7de901afcbaab9
+  - sha: cb566a581e23c422bc55914e2f5bde0122a3b1d0
     changeNotes: Initial release.
