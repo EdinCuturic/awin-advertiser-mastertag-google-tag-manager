@@ -60,11 +60,7 @@ const injectScript = require('injectScript');
 const encodeUri = require('encodeUri');
 
 const url = 'https://www.dwin1.com/' + encodeUri(data.advertiserId) + '.js';
-injectScript(url,data.gtmOnSuccess());
-
-// Call data.gtmOnSuccess when the tag is finished.
-data.gtmOnSuccess();
-
+injectScript(url,data.gtmOnSuccess(),data.gtmOnFailure());
 
 ___WEB_PERMISSIONS___
 
