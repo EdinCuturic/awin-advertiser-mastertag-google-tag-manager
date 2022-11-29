@@ -15,5 +15,5 @@
 homepage: "https://www.awin.com"
 documentation: "https://wiki.awin.com/index.php/Advertiser_Tracking_Guide"
 versions:
-  - sha: c2477c53da843169a696581e548fba6c48d23e91
+  - sha: a55a42b33783bbf2dbe7b019608845b5786119d0
     changeNotes: Initial release.
