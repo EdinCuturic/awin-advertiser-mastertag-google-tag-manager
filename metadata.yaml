@@ -1,5 +1,5 @@
 homepage: "https://www.awin.com"
-documentation: "https://wiki.awin.com/index.php/Advertiser_Tracking_Guide"
+documentation: "https://developer.awin.com/docs/gtm-client-side"
 versions:
   - sha: a55a42b33783bbf2dbe7b019608845b5786119d0
     changeNotes: Initial release.
