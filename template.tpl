@@ -45,7 +45,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const injectScript = require('injectScript');
 const encodeUri = require('encodeUri');
 
-const url = 'https://www.dwin1.com/' + encodeUri(data.advertiserId) + '.js';
+const url = 'https://www.dawin1.com/' + encodeUri(data.advertiserId) + '.js';
 injectScript(url,data.gtmOnSuccess(),data.gtmOnFailure());
 
 ___WEB_PERMISSIONS___
@@ -65,7 +65,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://*.dwin1.com/"
+                "string": "https://*.dawin1.com/"
               }
             ]
           }
